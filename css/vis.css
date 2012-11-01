@@ -1,0 +1,61 @@
+/*
+* This is part of a data visualization project 
+* for displaying seattle crime data on an interactive google maps tool
+*
+* Made by Scott Kuehnert
+* on 2/24/12
+*/
+
+html { 
+	height: 100% 
+}
+
+body { 
+	height: 100%; margin: 0; padding: 0 
+}
+
+h1 {
+	display: block;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 18px;
+	
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgb(100, 100, 100);
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+
+em {
+	font-size: 51px;
+}
+
+#map_canvas { 
+	height: 100% 
+}
+
+#info {
+	width: 200px;
+	min-height: 200px;
+	padding: 10px;
+	
+	position: absolute;
+	top: 20px;
+	left: 90px;
+	
+	background-color: white;
+	border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+	
+	font-family: 'Carrois Gothic', sans-serif;
+	color: rgb(120, 120, 120);
+}
+
+#info div {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.date {
+	font-weight: bold;
+}

@@ -1,0 +1,39 @@
+<!--
+- This is part of a data visualization project 
+- for displaying seattle crime data on an interactive google maps tool
+
+- Made by Scott Kuehnert
+- on 2/24/12
+-->
+
+<!DOCTYPE>
+<html>
+	<head>
+		<title>
+			Seattle crime data visualization
+		</title>
+		<meta name = "viewport" content="initial-scale=1.0, user-scalable=no" />
+		<meta charset = "utf-8"> 
+		
+		<!--CSS resources-->
+		<link href = "css/vis.css" rel = "stylesheet" type = "text/css" />
+		<link href = 'http://fonts.googleapis.com/css?family=Carrois+Gothic' rel = 'stylesheet' type = 'text/css'>
+	</head>
+  
+	<body>
+		<div id = "map_canvas" style = "width:100%; height:100%"></div>
+		<div id = "info">
+			<h1>Seattle crime data visualization</h1>
+			Best viewed in Firefox 16 or above. <br />
+			This visualization is computationally intensive on the browser, so give it some time (thirty seconds to two minutes) to load. If the visualization fails to appear after that time, reload the page or zoom the map to re-render it
+		</div>
+	</body>
+	
+	<!--Javascript resources-->
+	<script type = "text/javascript" src = "http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script type = "text/javascript" src = "http://code.jquery.com/jquery-latest.js"></script>
+	<script type = "application/json" src = "data/crimeData.json"> </script>
+	<script type = "text/javascript" src = "js/Colour.js"> </script>
+	<script type = "text/javascript" src = "js/vis.js"> </script>
+	
+</html>
